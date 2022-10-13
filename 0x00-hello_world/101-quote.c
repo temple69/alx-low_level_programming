@@ -1,25 +1,16 @@
-nclude <stdio.h>
-
-#include <unistd.h>
-
-
+#include <stdio.h>
 
 /**
+ * main - This should print the sizes of the characters
  *
- *  * main - This should successfully print out the text
- *
- *   *
- *
- *    * Return: 1 if there are no errors
- *
- *     */
-
+ * Return: 0 if there are no errors
+ */
 int main(void)
-
 {
-
-		write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-
-			return (1);
-
+	printf("Size of a char: %i byte(s)\n", sizeof(char));
+	printf("Size of an int: %i byte(s)\n", sizeof(int));
+	printf("Size of a long int: %i byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %i byte(s)\n", sizeof(float));
+	return (0);
 }
