@@ -1,1 +1,1 @@
-repository about singly linked lists
+repository about linked lists
