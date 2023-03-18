@@ -1,2 +1,2 @@
 # alx-low_level_programming
-This is a repository about the C programming language
+Solutione to alx  C programming language
