@@ -1,2 +1,2 @@
 # alx-low_level_programming
-Solutions to alx  C programming language beginning 
+Solutions to alx  C programming language beginner 
